@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,18 +18,55 @@
         color:darkred;
     } */
 
-    p::last-letter{
-        color: deeppink;
-        font: size 20;
-    }
+        p::first-letter {
+            color: deeppink;
+            font: size 20;
+        }
+
+        .caja1 {
+
+            background-color: orange;
+            width: auto;
+            height: auto;
+            padding: 5px;
+            border: 0.5px solid pink;
+        }
+
+        .caja2 {
+            background-color: darkorange;
+            width: auto;
+            height: auto;
+            padding: 0.5px;
+            border: 0.5px darkred;
+        }
+
+        header{
+            background-color:darkslateblue;
+            width: 100%;
+            height: 90px;
+
+        }
     </style>
 </head>
+
 <body>
-    <p>🧘 yoga</p>
-    <p>🧗 escalador</p>
-    <p>🗿 stone</p>
-    <p>😼 gato</p>
-    
-    
+    <header><img src="images.jpg"width=100% height="90%" ></header>
+    <div class="caja1">
+        <p>yoga</p>
+        <p> escalador</p>
+        <p> stone</p>
+        <p> gato</p>
+
+    </div>
+
+    <div class="caja2">
+        <p>yoga</p>
+        <p> escalador</p>
+        <p> stone</p>
+        <p> gato</p>
+
+    </div>
+
 </body>
+
 </html>
